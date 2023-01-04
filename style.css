@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+header, nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+height:80px;
+width:86vw;
+}
+.logo{
+height:100% ;
+margin:50px;
+}
+a{
+font-size:21px;
+text-decoration:none;
+color:white;
+/*   margin-left: 12px; ajustar */
+}
+.baner{
+background-image:url("Purple_Nebula_Universe_Space_Abstract_Design_medium.jpg");
+width:100vw;
+height:500px;
+background-attachment:fixed;
+background-size:cover;
+position: absolute;
+top:0;
+z-index:-1;
+}
+h1{
+position:absolute;
+top:200px;
+color:#f7f7f7;
+font-size:55px;
+text-align:center;
+}
+h2{
+position:absolute;
+top:280px;
+color:#f7f7f7;
+font-size:35px;
+text-align:center;
+}
+.texto{
+margin-left: 600px;
+text-align:center;
+}
+.baner2{
+background-image:url("Frame-6.png");
+width:100vw;
+height:690px;
+background-size:cover;
+position:relative;
+top:412px;
+z-index:-1;
+}
+.baner3{
+background-image:url("baner\ 3.png");
+width:100vw;
+height:690px;
+background-size:cover;
+position:relative;
+top:0;
+z-index:-1;
+}
+.baner4{
+background-image:url("Frame-9.jpg");
+width:100vw;
+height:800px;
+background-size:cover;
+position:relative;
+top:410px;
+z-index:-1;
+}
+.video{
+position:relative;/*a posição da seção tem que ser ajustada com as seções anteriores também.*/
+top:450px;
+/*display:flex;
+flex-direction: column;
+align-items: center; */
+}
+
+
